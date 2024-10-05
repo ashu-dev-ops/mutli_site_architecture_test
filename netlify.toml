@@ -1,0 +1,2 @@
+[build]
+  command = "npm cache clean --force && npm install --os=linux --cpu=x64 sharp@0.32 --ignore-engines && npx prisma generate && npm run build"
